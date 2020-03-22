@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/buffpic"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="100dp"
+        android:id="@+id/btnOpen"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:textColor="@android:color/darker_gray"
+        android:background="@drawable/btn_style"
+        android:text="what is corona?"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Developed by Noman karimi:"
+        android:textColor="@android:color/holo_blue_bright"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="100dp"
+
+        android:layout_marginRight="20dp"/>
+
+
+
+
+</RelativeLayout>

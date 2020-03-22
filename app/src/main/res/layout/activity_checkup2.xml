@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bg_style"
+    android:padding="16dp"
+    android:layout_height="match_parent"
+    tools:context=".Checkup2">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:background="@drawable/picture1"
+                android:id="@+id/imgCheck2"
+
+                android:layout_height="230dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtTitle3"
+                android:textSize="30dp"
+                android:layout_below="@id/imgCheck2"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="@android:color/holo_green_light"
+                android:text="You are Healthy! \n But be careFull!"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtTitle2"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/txtTitle3"
+                android:layout_marginLeft="10dp"
+                android:textColor="@android:color/white"
+                android:text="How to prevent Coronavirus?"/>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:id="@+id/imgIcon2"
+                android:layout_toLeftOf="@+id/txtTitle3"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+
+                android:layout_height="50dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:layout_below="@+id/txtTitle2"
+                android:lineHeight="30dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/how_to_preventCorona"
+                android:textColor="@android:color/black"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/txtCheckup"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtTitle4"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/txtCheckup"
+                android:layout_marginLeft="10dp"
+                android:textColor="@android:color/white"
+                android:text="Please be Cautious!!!"/>
+
+
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_marginTop="50dp"
+                android:layout_height="250dp"
+
+                android:layout_below="@+id/txtCheckup"
+                android:id="@+id/imgHand"
+                android:background="@drawable/hand"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:lineHeight="30dp"
+                android:fontFamily="sans-serif"
+
+                android:textColor="@android:color/black"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/washHand"
+                android:layout_height="wrap_content"
+                     android:layout_below="@id/imgHand"
+                     android:id="@+id/txtHand"
+            />
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+
+android:layout_below="@id/txtHand"
+                android:layout_marginTop="20dp"
+                android:id="@+id/imgCover"
+                android:background="@drawable/mask1" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:lineHeight="30dp"
+                android:fontFamily="sans-serif"
+
+                android:textColor="@android:color/black"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/washHand"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgCover"
+                android:id="@+id/txtCover"
+                />
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:id="@+id/imgMask"
+                android:layout_below="@+id/txtCover"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/mask" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:lineHeight="30dp"
+                android:fontFamily="sans-serif"
+
+                android:textColor="@android:color/black"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/washHand"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgMask"
+                android:id="@+id/txtMask"
+                />
+
+        </RelativeLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+
+
+</RelativeLayout>

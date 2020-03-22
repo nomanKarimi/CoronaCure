@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_style"
+    android:padding="16dp"
+    tools:context=".Checkup">
+
+
+
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:background="@drawable/corona"
+                android:id="@+id/imgInfected1"
+
+                android:layout_height="230dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgInfected1"
+                android:id="@+id/txtInfect"
+                android:textSize="30dp"
+                android:textColor="@android:color/holo_red_dark"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:text="You are infected!"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtInfect"
+                android:id="@+id/txtInfect2"
+                android:textSize="20dp"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true"
+                android:text="But dont worry we got something fo you!"/>
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_below="@id/imgInfected1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="13dp"
+                android:background="@drawable/alerticon"
+                android:id="@+id/imgIcon"
+                android:layout_toLeftOf="@+id/txtInfect"
+
+                android:layout_height="35dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:layout_below="@+id/txtInfect2"
+                android:lineHeight="30dp"
+                android:fontFamily="sans-serif"
+android:text="@string/Treatment"
+                android:textColor="@android:color/black"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/txtDetails"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:background="@drawable/coronatreatment2"
+                android:layout_marginTop="10dp"
+                android:id="@+id/imgInfected2"
+                android:layout_below="@+id/txtDetails"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:background="@drawable/picture13"
+                android:layout_marginTop="10dp"
+                android:id="@+id/imgInfected3"
+                android:layout_below="@+id/txtTreatment"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:layout_below="@+id/imgInfected2"
+                android:lineHeight="30dp"
+                android:fontFamily="sans-serif"
+                android:text="@string/treatment2"
+                android:textColor="@android:color/black"
+                android:paddingLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/txtTreatment"
+                android:layout_height="wrap_content"/>
+
+
+
+
+
+
+
+
+        </RelativeLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+
+
+</RelativeLayout>

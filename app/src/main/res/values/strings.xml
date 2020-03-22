@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">CoronaCure</string>
+    <string name="what_is_corona">What is coronavirus? Coronaviruses are a family of viruses that range from the common cold to MERS coronavirus, which is Middle East Respiratory Syndrome coronavirus and SARs,
+        Severe acute respiratory syndrome coronavirus.\n Where do coronaviruses come from?\n
+        Corona viruses are circulating in animals and some of these coronaviruses have the capability of transmitting between animals and humans. 
+        We call that a spillover event.
+    Coronaviruses are zoonotic, meaning they are transmitted between animals and people.  Detailed investigations found that SARS-COV was transmitted from civet cats to humans and MERS-COV from dromedary camels to humans</string>
+    <string name="what_is_corona2">Common signs of infection include respiratory symptoms, fever, cough, shortness of breath and breathing difficulties. In more severe cases, infection can cause pneumonia, severe acute respiratory syndrome, kidney failure and even death. </string>
+    <string name="how_to_preventCorona">Standard recommendations to prevent infection spread include:  regular hand washing, covering mouth and nose when coughing and sneezing, thoroughly cooking meat and eggs. Avoid close contact with anyone showing symptoms of respiratory illness such as coughing and sneezing.</string>
+    <string name="Treatment">What to do?    \n Corona before it reaches the lungs it remains in the throat for four days and at this time the person begins to cough and have throat pains if he drink water alot and gargling with warm water and salt or vinegar eliminates the virus.\n Currently, no antiviral medication is recommended to treat COVID-19. Treatment is directed at relieving symptoms and may include: \n
+•	Pain relievers\n
+•	Cough syrup or medication\n
+•	Rest\n
+•	Fluid intake \n
+If your doctor thinks you can be treated at home, he or she may give you special instructions, such as to isolate yourself as much as possible from family while you are sick and to stay home for a period of time. If you are very ill, you may need to be treated in the hospital \n and quarantine your self .
+</string>
+    <string name="treatment2"> •Stay home: People who are mildly ill with COVID-19 are able to isolate at home during their illness. You should restrict activities outside your home, except for getting medical care.
+•	Avoid public areas: Do not go to work, school, or public areas.\n
+•	Avoid public transportation: Avoid using public transportation, ride-sharing, or taxis.\n
+•	Stay away from others: As much as possible, you should stay in a specific room and away from other people in your home. Also, you should use a separate bathroom, if available.\n
+•	Limit contact with pets and animals: You should restrict contact with pets and other animals while you are sick with COVID-19, just like you would around other people. Although there have not been reports of pets or other animals becoming sick with COVID-19, it is still recommended that people sick with COVID-19 limit contact with animals until more information is known about the virus.
+Call ahead before visiting your doctor\n
+•	Call ahead: If you have a medical appointment, call the healthcare provider and tell them that you have or may have COVID-19. This will help the healthcare provider’s office take steps to keep other people from getting infected or exposed.\n
+</string>
+    <string name="washHand">•	Wash hands: Wash your hands often with soap and water for at least 20 seconds, especially after blowing your nose, coughing, or sneezing; going to the bathroom; and before eating or preparing food.\n
+•	Hand sanitizer: If soap and water are not readily available, use an alcohol-based hand sanitizer with at least 60% alcohol, covering all surfaces of your hands and rubbing them together until they feel dry.\n
+•	Soap and water: Soap and water are the best option if hands are visibly dirty.\n
+•	Avoid touching: Avoid touching your eyes, nose, and mouth with unwashed hands.
+</string>
+    <string name="cover">•	Cover: Cover your mouth and nose with a tissue when you cough or sneeze.\n
+•	Dispose: Throw used tissues in a lined trash can.\n
+•	Wash hands: Immediately wash your hands with soap and water for at least 20 seconds or, if soap and water are not available, clean your hands with an alcohol-based hand sanitizer that contains at least 60% alcohol.
+</string>
+    <string name="mask">•	If you are sick: You should wear a facemask when you are around other people (e.g., sharing a room or vehicle) or pets and before you enter a healthcare providers office.\n
+•	If you are caring for others: If the person who is sick is not able to wear a facemask (for example, because it causes trouble breathing), then people who live with the person who is sick should not stay in the same room with them, or they should wear a facemask if they enter a room with the person who is sick.
+</string>
+</resources>
